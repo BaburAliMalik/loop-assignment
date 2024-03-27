@@ -95,3 +95,101 @@
 // for(let i = 2; i <= 20; i += 2){
 //     h5.innerHTML += ` ${i + 'k, '} `
 // }
+
+// Q.NO-8
+// const bakery = ["cake","apple pie","cookie","chips","patties",];
+// const userInput = prompt ("enter any item");
+// let isAvailable = false;
+
+// for (let i = 0; i < bakery.length; i++){
+//     if(userInput === bakery[i]){
+//         console.log("item available hai")
+//         isAvailable = true
+//     }
+// }
+// if(isAvailabl === false){
+//     console.log('item is not available') 
+// }
+
+// Q.NO-12
+
+// for (let i = 5; i <= 100; i += 5){
+//         console.log(i);
+//     }
+
+// Q.NO-13
+
+// let table = document.querySelector('#table')
+// var students = ["Ali", "Sami", "Taha", "Inam"];
+// var scores = [58, 73, 89, 90];
+
+// for (let i = 0; i < students.length; i++) {
+//     table.innerHTML += `<table>
+//     <tr>
+//     <th>Student</th>
+//     <th>Score</th>
+
+//     </tr>
+//     <td>${students[i]}</td>
+//     <td>${scores[i]}</td>
+
+//     </table>`
+// }
+
+// Q.NO-14
+
+// var scores = [12, 45, 3, 22, 34, 50];
+// (Hint: take stop value from user)
+// E.g. if user gives 3 as input value print 12, 45, 3
+// if user gives 34 as input value print 12, 45, 3, 22, 34
+
+// let scores = [12, 45, 3, 22, 34, 50];
+// let pro = +prompt('Enter your number')
+
+// for(let i = 0; i < scores.length; i++){
+//     if (pro === scores){
+//         console.log(scores);
+//     }
+// }
+
+// not complete
+
+// Q.NO-15
+
+// let ul = document.querySelector('ul')
+// let nested = [ [1,2,3] , [4,5,6] , [7,8,9] ]
+
+// for (let i = 0; i < nested.length; i++){
+//     console.log(nested[i]);
+//     ul.innerHTML += `<li>
+//     ${nested[i]}
+//     </li>`
+// }
+
+
+// Q.NO-19
+// let input = 10;
+// for (let index = 1; index <= 10; index++) {
+//     let stars = '';
+//     for (let j = 0; j < index; j++) {
+//          stars += '*';
+        
+//     }
+ 
+// console.log(stars)
+    
+// }
+// 19 to 1
+
+// let input = 10;
+// for (let index = input; index >= 1; index--) {
+//     let stars = '';
+//     for (let j = 0; j < index; j++) {
+//          stars += '*';
+        
+//     }
+
+// console.log(stars)
+    
+// }
+
